@@ -133,7 +133,7 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_
 
 # Check unique values in y_train again
 print("Unique values in y_train after cleaning and re-split:")
-display(y_train.unique())
+st.write(y_train.unique())
 
 
 # In[ ]:
