@@ -119,7 +119,7 @@ y = df_cleaned['Class']
 
 # Confirm no more missing values in y
 print("Missing values in 'Class' after dropping NaN rows:")
-display(y.isnull().sum())
+st.write(y.isnull().sum())
 
 
 # Now that the `Class` column is clean, we can re-perform the train-test split and verify that `y_train` no longer contains `NaN` values.
