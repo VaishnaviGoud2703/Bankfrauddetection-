@@ -251,7 +251,7 @@ df['Class'].value_counts()
 # In[ ]:
 
 
-get_ipython().system('pip install imblearn')
+
 
 
 # In[ ]:
