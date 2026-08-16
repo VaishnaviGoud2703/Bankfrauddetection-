@@ -17,7 +17,7 @@ from sklearn.preprocessing import StandardScaler
 # In[ ]:
 
 
-df=pd.read_csv("/content/creditcard.csv")
+df=pd.read_csv("creditcard_small.csv")
 
 
 # In[ ]:
