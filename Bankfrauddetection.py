@@ -12,6 +12,7 @@ from sklearn.metrics import accuracy_score,confusion_matrix,recall_score,f1_scor
 from sklearn.tree import DecisionTreeClassifier
 import seaborn as sns
 from sklearn.preprocessing import StandardScaler
+import streamlit as st
 
 
 # In[ ]:
@@ -400,7 +401,7 @@ get_ipython().system('pip install streamlit')
 # In[ ]:
 
 
-import streamlit as st
+
 
 st.title("Bank Fraud Detection")
 
